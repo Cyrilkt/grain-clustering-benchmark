@@ -1,0 +1,3 @@
+-r ../requirements-evaluation.txt
+torch>=2.1,<3
+tqdm>=4.60

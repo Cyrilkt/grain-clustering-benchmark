@@ -1,0 +1,11 @@
+torch==1.11.0
+torchvision==0.12.0
+pytorch-lightning==1.2.10
+torchmetrics==0.2.0
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.0.2
+joblib==1.1.0
+kmeans-pytorch==0.3
+threadpoolctl>=3
+PyYAML>=6,<7

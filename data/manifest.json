@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "protocol": "full-collection unsupervised clustering",
+  "original_images_included": false,
+  "label_use": "evaluation only",
+  "row_id_convention": "zero-based row position in the supplied tensors, local to each regime",
+  "cross_regime_image_identity_verified": false,
+  "cross_regime_note": "The label arrays are identical, but no image filename/sample-identity manifest was supplied. Equal class labels do not prove within-class row correspondence.",
+  "historical_byol_seed_and_checkpoint_provenance": "not supplied",
+  "regimes": {
+    "grain_only": {
+      "source_directory": "grain_datasets/byol_grain",
+      "shape": [
+        5240,
+        256
+      ],
+      "dtype": "float32",
+      "label_dtype": "int64",
+      "class_counts": {
+        "0": 316,
+        "1": 167,
+        "2": 227,
+        "3": 81,
+        "4": 174,
+        "5": 272,
+        "6": 127,
+        "7": 641,
+        "8": 199,
+        "9": 291,
+        "10": 315,
+        "11": 229,
+        "12": 316,
+        "13": 317,
+        "14": 356,
+        "15": 250,
+        "16": 266,
+        "17": 187,
+        "18": 178,
+        "19": 152,
+        "20": 179
+      },
+      "finite": true,
+      "unique_embedding_rows": 5240,
+      "l2_norm_min": 0.9999998807907104,
+      "l2_norm_max": 1.0000001192092896,
+      "train_test_features_identical": true,
+      "train_test_labels_identical": true,
+      "files": {
+        "features": {
+          "path": "data/embeddings/grain_only/features.npy",
+          "sha256": "27d966548b72dba98ffe69a4f21813277931af8971f00e4ec085f61f2146905b"
+        },
+        "labels": {
+          "path": "data/embeddings/grain_only/labels.npy",
+          "sha256": "daefe0c635140e18e81248bd0ac5e9e6b8de3c33a629a84a5f679f0c0807cb70"
+        },
+        "row_ids": {
+          "path": "data/embeddings/grain_only/row_ids.npy",
+          "sha256": "69bef45b81e3776c1bf8160283a44bbc45abaa185ad333d574a9af0f3f4b1a7f"
+        }
+      },
+      "original_files": {
+        "test_data.pt": {
+          "sha256": "569dfa1f52378d7f70b8b226973270b9d807aa9315f45d7397e2f12c3f00aa2a",
+          "bytes": 5367358
+        },
+        "test_labels.pt": {
+          "sha256": "6fcad5bf5fd2d22254bc7f67aff973b23979136dd9890bf40d9df8e1c00fd8a3",
+          "bytes": 43532
+        },
+        "train_data.pt": {
+          "sha256": "569dfa1f52378d7f70b8b226973270b9d807aa9315f45d7397e2f12c3f00aa2a",
+          "bytes": 5367358
+        },
+        "train_labels.pt": {
+          "sha256": "6fcad5bf5fd2d22254bc7f67aff973b23979136dd9890bf40d9df8e1c00fd8a3",
+          "bytes": 43532
+        }
+      }
+    },
+    "grain_volcashdb": {
+      "source_directory": "grain_datasets/byol_grain_volcashAB",
+      "shape": [
+        5240,
+        256
+      ],
+      "dtype": "float32",
+      "label_dtype": "int64",
+      "class_counts": {
+        "0": 316,
+        "1": 167,
+        "2": 227,
+        "3": 81,
+        "4": 174,
+        "5": 272,
+        "6": 127,
+        "7": 641,
+        "8": 199,
+        "9": 291,
+        "10": 315,
+        "11": 229,
+        "12": 316,
+        "13": 317,
+        "14": 356,
+        "15": 250,
+        "16": 266,
+        "17": 187,
+        "18": 178,
+        "19": 152,
+        "20": 179
+      },
+      "finite": true,
+      "unique_embedding_rows": 5240,
+      "l2_norm_min": 0.9999998807907104,
+      "l2_norm_max": 1.0000001192092896,
+      "train_test_features_identical": true,
+      "train_test_labels_identical": true,
+      "files": {
+        "features": {
+          "path": "data/embeddings/grain_volcashdb/features.npy",
+          "sha256": "1c197bb0c031259a9de871b80221f516dbf9b259e7a74a64fc1ffa894b8ef294"
+        },
+        "labels": {
+          "path": "data/embeddings/grain_volcashdb/labels.npy",
+          "sha256": "daefe0c635140e18e81248bd0ac5e9e6b8de3c33a629a84a5f679f0c0807cb70"
+        },
+        "row_ids": {
+          "path": "data/embeddings/grain_volcashdb/row_ids.npy",
+          "sha256": "69bef45b81e3776c1bf8160283a44bbc45abaa185ad333d574a9af0f3f4b1a7f"
+        }
+      },
+      "original_files": {
+        "test_data.pt": {
+          "sha256": "acdf367097062dc8205d73b138a0b9c93a48e4e06e1e3896149f9bcdcbc24c92",
+          "bytes": 5367358
+        },
+        "test_labels.pt": {
+          "sha256": "6fcad5bf5fd2d22254bc7f67aff973b23979136dd9890bf40d9df8e1c00fd8a3",
+          "bytes": 43532
+        },
+        "train_data.pt": {
+          "sha256": "acdf367097062dc8205d73b138a0b9c93a48e4e06e1e3896149f9bcdcbc24c92",
+          "bytes": 5367358
+        },
+        "train_labels.pt": {
+          "sha256": "6fcad5bf5fd2d22254bc7f67aff973b23979136dd9890bf40d9df8e1c00fd8a3",
+          "bytes": 43532
+        }
+      }
+    }
+  }
+}
