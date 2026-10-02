@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/
+data/embeddings/
+*.pt
+*.pth
+*.ckpt
+*.so
+*.log
+.venv*/
+data/grain_rgb/
+data/volcashdb_rgb/
+.DS_Store
