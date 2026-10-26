@@ -11,3 +11,5 @@ Both directories represent Grain only. No VolcAshDB observation is appended to t
 Historical BYOL seed/checkpoint-selection information was not supplied with these arrays. New fixed-final-epoch exports do not retroactively establish the provenance of those earlier representations.
 
 Grain RGB images are not included. Official VolcAshDB download links and the RGB layout for image-training users are documented in the root README. Original images, generated checkpoints and local output directories must not be added to source version control.
+
+The repository-level MIT license does not cover these BYOL embeddings or their reference labels. Their release supports replication of the experiments; other reuse or redistribution rights should be confirmed with the relevant rights holders.
