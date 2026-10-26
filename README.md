@@ -200,7 +200,7 @@ Third-party licenses and unresolved permissions are documented in [`THIRD_PARTY.
 
 ## Licenses and reuse
 
-This is a **multi-license repository**. The [root MIT license](LICENSE) covers original benchmark utilities, **not** the adapted model implementations or the released embeddings. Method-specific licenses and attribution are listed in [THIRD_PARTY.md](THIRD_PARTY.md), and the exact scope is explained in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). In particular, the DIVA and ProPos upstream repositories did not provide an explicit license at the time of inspection; their redistribution permissions should be confirmed with the original authors.
+This is a **multi-license repository**. The [root MIT license](LICENSE) covers original benchmark utilities, **not** the adapted model implementations or the released embeddings. Method-specific licenses and attribution are listed in [THIRD_PARTY.md](THIRD_PARTY.md), and the exact scope is explained in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
 
 The original Grain RGB images are not distributed. The released BYOL embeddings support reproduction of the feature-based experiments; their availability does not imply unrestricted redistribution rights. VolcAshDB images must be downloaded separately under the dataset provider's terms.
 
